@@ -18,7 +18,7 @@ ip - server's address in a form of ip:port
 
 ### PLUGIN:RegisterTravelPoint( inZone, toZone, toTravelPoint, uid, minVector, maxVector, ... )
 inZone - uid of a zone where this travelPoint is located  
-toZone - uid of a zone where this travelPoint leads 
+toZone - uid of a zone where this travelPoint leads  
 toTravelPoint - uid of a travelPoint to which this travelPoint leads  
 uid - unique id for this travelPoint  
 minVector, maxVector - coords to build travelPoint borders. You can get them with a TravelPoint helper tool, the process is similar to nut.area   
